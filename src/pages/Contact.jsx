@@ -1,6 +1,4 @@
 
-import contact from './bg.jpg'
-import ContactForm from "./ContactForm";
 import { FaPhone } from "react-icons/fa";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
@@ -10,63 +8,56 @@ const Contact = () => {
     return (
         <div className="py-2">
 
-            <div
-                className="w-full bg-center bg-cover h-[400px] md:h-[500px]"
-                style={{
-                    backgroundImage:
-                        `url(${contact})`,
-                }}
-            >
-                <div className="flex items-center justify-center w-full h-full bg-gray-900/40">
-                    <div className="text-center">
-                        <h1 className="text-3xl font-semibold text-[#f4a04c] lg:text-4xl">
-                            Please Contact
-                        </h1>
-                        <a href="#form"> <button className=" px-6 py-3 mt-5 text-black bg-[#EA580C]     hover:bg-[#bf4503] font-bold  rounded hover:scale-1050">
-                            let's contact us
-                        </button></a>
+            <h3 className="text-center font-bold text-3xl ">Contact</h3>
+
+            <div id='form'>
+                <div className="">
+                    {/* lets message me */}
+                    <div className="">
+                        <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg shadow-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+                            <div className="flex flex-col justify-between">
+                                <div className="space-y-2">
+                                    <h2 className="text-4xl font-bold leading-tight lg:text-5xl text-white">Let's talk!</h2>
+                                    <p className="text-white">Vivamus in nisl metus? Phasellus.</p>
+                                </div>
+                                <img src="assets/svg/doodle.svg" alt="Decorative Doodle" className="p-6 h-52 md:h-64" />
+                            </div>
+                            <form className="space-y-6">
+                                <div>
+                                    <label htmlFor="name" className="text-sm text-white">Full name</label>
+                                    <input
+                                        id="name"
+                                        type="text"
+                                        placeholder="Your full name"
+                                        className="w-full p-3 rounded border border-gray-300 focus:border-violet-500 focus:ring focus:ring-violet-200 transition duration-300 text-black"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="email" className="text-sm text-white">Email</label>
+                                    <input
+                                        id="email"
+                                        type="email"
+                                        placeholder="Your email address"
+                                        className="w-full p-3 rounded border border-gray-300 focus:border-violet-500 focus:ring focus:ring-violet-200 transition duration-300 text-black"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="message" className="text-sm text-white">Message</label>
+                                    <textarea
+                                        id="message"
+                                        placeholder="Your message"
+                                        className="w-full p-3 rounded border border-gray-300 focus:border-violet-500 focus:ring focus:ring-violet-200 transition duration-300 text-black"
+                                    ></textarea>
+                                </div>
+                                <button
+                                    type="submit"
+                                    className=" w-full px-6 py-3 text-black bg-[#EA580C]     hover:bg-[#bf4503] font-bold  rounded ">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-
-            {/* contact cart */}
-            <div className="grid grid-cols-1 gap-12 mt-10 sm:grid-cols-2 lg:grid-cols-3 max-w-screen-xl mx-auto">
-                <div className="p-4  text-black shadow-lg md:p-6 relative px-6 py-2  bg-gradient-to-r from-[#eda57e] to-[#ed5b0c] rounded-md transition-all duration-500 ease-in-out
-               border-2 border-transparent hover:bg-indigo-600 hover:border-indigo-400 hover:shadow-[0_0_15px_3px_rgba(99,102,241,0.7)] hover:scale-105">
-                    <span className="inline-block p-3  rounded-lg   text-2xl">
-                        <MdOutlineAttachEmail />
-                    </span>
-
-                    <h2 className="mt-4 text-lg font-semibold text-gray-900 ">Chat to Sales</h2>
-                    <p className="mt-2 text-sm">Speak to our friendly team.</p>
-                    <p className="mt-2 text-sm">support@quicbus.com</p>
-                </div>
-
-                <div className="p-4  text-black shadow-lg md:p-6 relative px-6 py-2  bg-gradient-to-r from-[#eda57e] to-[#ed5b0c] rounded-md transition-all duration-500 ease-in-out
-               border-2 border-transparent hover:bg-indigo-600 hover:border-indigo-400 hover:shadow-[0_0_15px_3px_rgba(99,102,241,0.7)] hover:scale-105">
-                    <span className="inline-block p-3  rounded-lg text-2xl">
-                        <ImLocation2 />
-                    </span>
-
-                    <h2 className="mt-4 text-lg font-semibold text-gray-900 ">Visit Us</h2>
-                    <p className="mt-2 text-sm  ">Visit our office HQ.</p>
-                    <p className="mt-2 text-sm  ">Dhaka,Bangladesh</p>
-                </div>
-
-                <div className="p-4  text-black shadow-lg md:p-6 relative px-6 py-2  bg-gradient-to-r from-[#eda57e] to-[#ed5b0c] rounded-md transition-all duration-500 ease-in-out
-               border-2 border-transparent hover:bg-indigo-600 hover:border-indigo-400 hover:shadow-[0_0_15px_3px_rgba(99,102,241,0.7)] hover:scale-105">
-                    <span className="inline-block p-3  rounded-lg text-2xl">
-                        <FaPhone />
-                    </span>
-
-                    <h2 className="mt-4 text-lg font-semibold text-gray-900 ">Call Us</h2>
-                    <p className="mt-2 text-sm">24/7 Customer Support</p>
-                    <p className="mt-2 text-sm">+8801849317388</p>
-                </div>
-            </div>
-            <div id='form'>
-                <ContactForm />
             </div>
         </div>
     );
