@@ -5,7 +5,7 @@ import ProjectCard from "../components/HomePage/ProjectCart";
 const Projects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch("/public/project.json")
+        fetch("/project.json")
             .then(res => res.json())
             .then(data => setProjects(data))
     }, []);

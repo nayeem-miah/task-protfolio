@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Skills = () => {
     const [skills, setSkills] = useState([]);
     useEffect(() => {
-        fetch("/public/skills.json")
+        fetch("/skills.json")
             .then(res => res.json())
             .then(data => setSkills(data))
     }, []);

@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
                     <div className="flex"> {
                         project?.technologies?.map(lan => <div><button className=" text-blue-600 border rounded-full px-1">#{lan}</button></div>)}</div>
                     <p>{project.description}</p>
-                    <div className="card-actions justify-end grid lg:grid-cols-3 grid-cols-1 ">
+                    <div className="card-actions justify-end grid grid-cols-3  ">
                         <Link
                             to={""}
                             className="badge badge-outline flex items-center gap-1  hover:text-blue-600 hover:font-bold"

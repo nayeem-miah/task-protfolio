@@ -1,12 +1,47 @@
-# React + Vite
+# 🌐 Task Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site: [vocal-ganache.netlify.app](https://vocal-ganache-ae16f6.netlify.app/)  
+GitHub Repo: [github.com/nayeem-miah/task-protfolio](https://github.com/nayeem-miah/task-protfolio)
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a personal portfolio project built with **React + Vite**, styled using **Tailwind CSS**, and featuring routing with **React Router**. The project showcases web development skills and includes extra custom pages linked through a responsive navigation bar.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Features
+
+- ⚛️ Built with **React** and **Vite**
+- 🌐 **React Router** for seamless page navigation
+- 🎨 **Tailwind CSS** for responsive styling
+- 🧭 A shared **Navbar** across all pages
+- ➕ Includes **2 extra pages** beyond the main sections
+- 📱 Fully responsive design
+
+---
+
+## 🧩 Pages Included
+
+- Home
+- About
+- Projects
+- Contact
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run this project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/nayeem-miah/task-protfolio
+
+# 2. Navigate to the project folder
+cd task-protfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
