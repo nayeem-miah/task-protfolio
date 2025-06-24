@@ -7,7 +7,9 @@ import Router from './Routes/Routes.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Router />
+      <div className='text-black bg-white'>
+        <Router />
+      </div>
     </BrowserRouter>
   </StrictMode>,
 )

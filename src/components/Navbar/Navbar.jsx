@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router";
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
+    const tMenu = () => {
+        setOpen(!open);
     };
 
     return (
@@ -18,9 +18,9 @@ const Navbar = () => {
                     <li><Link to="/contact" className="hover:text-blue-500">Contact</Link></li>
                 </ul>
 
-
+                {/* md device */}
                 <div className="md:hidden">
-                    <button onClick={toggleMenu}>
+                    <button onClick={tMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-800">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -30,9 +30,9 @@ const Navbar = () => {
                 </div>
             </div>
 
-
-            {isOpen && (
-                <div className="md:hidden px-4 pb-4">
+            {/* mobile device */}
+            {open && (
+                <div className="md:hidden px-4 pb-4 bg-gray-200">
                     <ul className="space-y-2">
                         <li><Link to="/" className="block hover:text-blue-500">Home</Link></li>
                         <li><Link to="/about" className="block hover:text-blue-500">About</Link></li>
