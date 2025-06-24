@@ -1,9 +1,4 @@
 
-import { FaPhone } from "react-icons/fa";
-import { MdOutlineAttachEmail } from "react-icons/md";
-import { ImLocation2 } from "react-icons/im";
-
-
 const Contact = () => {
     return (
         <div className="py-2">
@@ -20,7 +15,7 @@ const Contact = () => {
                                     <h2 className="text-4xl font-bold leading-tight lg:text-5xl text-white">Let's talk!</h2>
                                     <p className="text-white">Vivamus in nisl metus? Phasellus.</p>
                                 </div>
-                                <img src="assets/svg/doodle.svg" alt="Decorative Doodle" className="p-6 h-52 md:h-64" />
+                                <img src="../../src/assets/contact.jpg" alt="Decorative Doodle" className="p-6 h-52 md:h-64" />
                             </div>
                             <form className="space-y-6">
                                 <div>

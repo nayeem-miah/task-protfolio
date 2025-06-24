@@ -17,7 +17,7 @@ const Skills = () => {
             <h3 className="text-center text-3xl font-semibold lg:my-10 my-5 ">
                 My Skills
             </h3>
-            <p className=" text-xs lg:text-xl my-9">
+            <p className="  my-9">
                 am a Python Django Developer skilled in building scalable and secure web applications. With a strong foundation in Python, I focus on backend development, data analysis, and scripting, always prioritizing code readability and efficiency. My expertise in the Django framework enables me to create robust applications with RESTful APIs and manage complex database operations seamlessly. Additionally, I am proficient in HTML5, CSS3, and JavaScript (ES6+), allowing me to implement dynamic, responsive, and user-friendly interfaces. I also have experience with PostgreSQL for relational database management and data modeling, ensuring optimal backend support for high-performance applications
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -4,7 +4,7 @@
       "name": "UrbanDrive",
       "description": "A modern car rental platform that allows users to browse, book, and manage car rentals with ease. Includes admin and host dashboards, payment systems (SSLCOMMERZ, Stripe), and analytics charts.",
       "technologies": ["React", "Node.js", "Express"],
-      "image": "https://i.ibb.co/y6KGsYp/urban-drive.png",
+      "image": "https://nayeem-miah.vercel.app/p4.png",
       "liveLink": "https://urban-drive.web.app",
       "githubLink": "https://github.com/yourusername/urbanDrive"
     },
@@ -13,7 +13,7 @@
       "name": "TeachTack Blogs",
       "description": "A responsive blog website where users can explore educational blog posts categorized by topic. Includes search filtering, pagination, and comment features.",
       "technologies": ["React", "Firebase", "Tailwind CSS"],
-      "image": "https://i.ibb.co/QJnsWyW/teachtack-blog.png",
+      "image": "https://nayeem-miah.vercel.app/p7.png",
       "liveLink": "https://teachtack-blog.netlify.app",
       "githubLink": "https://github.com/yourusername/teachtack-blog"
     },
@@ -22,7 +22,7 @@
       "name": "onTimeNews",
       "description": "A real-time news web app fetching data from a public API, allowing users to read the latest headlines and filter news by category. Includes mobile responsiveness and dark mode.",
       "technologies": ["React", "Tailwind", "React Router"],
-      "image": "https://i.ibb.co/L1bVv5T/ontime-news.png",
+      "image": "https://nayeem-miah.vercel.app/p8.png",
       "liveLink": "https://ontime-news.vercel.app",
       "githubLink": "https://github.com/yourusername/onTimeNews"
     }
