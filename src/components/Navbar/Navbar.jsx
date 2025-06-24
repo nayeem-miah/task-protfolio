@@ -11,10 +11,12 @@ const Navbar = () => {
     return (
         <header className="bg-white shadow">
             <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+
+
                 <Link to="/" className="text-2xl font-bold text-gray-800">MGR</Link>
                 <ul className="hidden md:flex space-x-6">
                     <li><Link to="/" className="hover:text-blue-500">Home</Link></li>
-                    <li><Link to="/about" className="hover:text-blue-500">About</Link></li>
+                    <li><Link to="/project" className="hover:text-blue-500">My works</Link></li>
                     <li><Link to="/contact" className="hover:text-blue-500">Contact</Link></li>
                 </ul>
 

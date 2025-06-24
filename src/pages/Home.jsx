@@ -1,13 +1,22 @@
+
 import Banner from "../components/HomePage/Banner";
-import Card from "../components/HomePage/ProjectCart";
+import Projects from "./Projects";
+import Skills from "./Skills";
+
 
 const Home = () => {
+
     return (
         <div>
             {/* Banner Section */}
             <Banner />
-            <Card />
-            {/* Add more sections or components as needed */}
+
+            <div>
+                <Skills />
+            </div>
+            <div>
+                <Projects />
+            </div>
         </div>
     );
 }

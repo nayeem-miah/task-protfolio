@@ -3,7 +3,7 @@
       "id": 1,
       "name": "UrbanDrive",
       "description": "A modern car rental platform that allows users to browse, book, and manage car rentals with ease. Includes admin and host dashboards, payment systems (SSLCOMMERZ, Stripe), and analytics charts.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind", "Firebase"],
+      "technologies": ["React", "Node.js", "Express"],
       "image": "https://i.ibb.co/y6KGsYp/urban-drive.png",
       "liveLink": "https://urban-drive.web.app",
       "githubLink": "https://github.com/yourusername/urbanDrive"
@@ -21,7 +21,7 @@
       "id": 3,
       "name": "onTimeNews",
       "description": "A real-time news web app fetching data from a public API, allowing users to read the latest headlines and filter news by category. Includes mobile responsiveness and dark mode.",
-      "technologies": ["React", "NewsAPI", "Tailwind", "React Router"],
+      "technologies": ["React", "Tailwind", "React Router"],
       "image": "https://i.ibb.co/L1bVv5T/ontime-news.png",
       "liveLink": "https://ontime-news.vercel.app",
       "githubLink": "https://github.com/yourusername/onTimeNews"
